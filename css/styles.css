@@ -7,6 +7,7 @@
 }
 h1,h2,h3,h4,h5,h6, p {
   margin: 0;
+ 
 }
 html {
   box-sizing: border-box;
@@ -40,6 +41,7 @@ a {
 }
 .header {
   border-bottom: 1px solid #ececec;
+  height: 80px;
 }
 .icon-header {
   font-family: 'Raleway', sans-serif;
@@ -246,8 +248,10 @@ a {
 .page-header {
   display: flex;
   margin-left: 93px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  align-items: center;
+  justify-content: center;
+  /*padding-top: 25px;
+  padding-bottom: 25px;*/
 }
 .links-header {
   margin-right: 50px;
@@ -260,6 +264,7 @@ a {
   margin-left: 240px;
   padding-top: 25px;
   padding-bottom: 25px;
+  
 }
 .hero-section {
   display: flex;
